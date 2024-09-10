@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs</title>
+</head>
+<body>
+    <img src=".\htmlLogo.png" width="150" height="100" alt="html 5 logo">
+    <h1>HTML Input Types</h1>
+    <p>
+       Los inputs son elementos que permiten al usuario poder interactuar con la página web a través de la entrada de datos; los podemos ver en textos, contraseñas, correos electrónicos y más.
+    </p>
+
+    <hr>
+
+    <ul>
+        <li>
+            <a href="#btn">Botón</a>
+        </li>
+
+        <li>
+            <a href="#checkBox">Check Box</a>
+        </li>
+
+        <li>
+            <a href="#color">Color</a>
+        </li>
+
+        <li>
+            <a href="#date">Date</a>
+        </li>
+
+        <li>
+            <a href="#dateLocal">Datetime-local</a>
+        </li>
+
+        <li>
+            <a href="#correo">Email</a>
+        </li>
+
+        <li>
+            <a href="#file">File</a>
+        </li>
+
+        <li>
+            <a href="#hidden">Hidden</a>
+        </li>
+
+        <li>
+            <a href="#img">Image</a>
+        </li>
+
+        <li>
+            <a href="#month">Month</a>
+        </li>
+
+        <li>
+            <a href="#number">Number</a>
+        </li>
+
+        <li>
+            <a href="#psw">Password</a>
+        </li>
+
+        <li>
+            <a href="#radio">Radio</a>
+        </li>
+
+        <li>
+            <a href="#range">Range</a>
+        </li>
+
+        <li>
+            <a href="#reset">Reset</a>
+        </li>
+
+        <li>
+            <a href="#search">Search</a>
+        </li>
+
+        <li>
+            <a href="#submit">Submit</a>
+        </li>
+
+        <li>
+            <a href="#tel">Tel</a>
+        </li>
+
+        <li>
+            <a href="#txt">Text</a>
+        </li>
+
+        <li>
+            <a href="#time">Time</a>
+        </li>
+
+        <li>
+            <a href="#url">Url</a>
+        </li>
+
+        <li>
+            <a href="#week">Week</a>
+        </li>
+    </ul>
+
+    <h3  id="btn">Botón</h3>
+    <p>
+       Crea un botón sin funcionalidad, debe asociarse a algún evento en javaScript para que funcione. 
+    </p>
+    <input type="button">
+
+    <h3 id="checkBox">Check Box</h3>
+    <p>
+       Crea una casilla de verificación que el usuario puede marcar o desmarcar. Común en formularios.
+    </p>
+    <input type="checkbox">
+
+    <h3 id="color">Color</h3>
+    <p>
+       Permite al usuario seleccionar un color de la paleta, al seleccionarlo, se establece el color.
+    </p>
+    <input type="color">
+
+    <h3 id="date">Date</h3>
+    <p>
+        Permite al usuario seleccionar una fecha utilizando un calendario desplegable. El valor seleccionado se devuelve en formato YYYY-MM-DD.
+    </p>
+    <input type="date">
+
+    <h3 id="dateLocal">DateTime-Local</h3>
+    <p>
+        Permite al usuario seleccionar una fecha y hora locales en un solo campo, mostrando un calendario y un selector de tiempo.
+    </p>
+    <input type="datetime-local">
+
+    <h3 id="correo">Email</h3>
+    <p>
+        Permite al usuario ingresar una dirección de correo electrónico. Este campo valida automáticamente que el formato del correo sea correcto, como tener un símbolo "@" y un dominio válido.
+    </p>
+    <input type="email">
+
+    <h3 id="file">File</h3>
+    <p>
+        Permite al usuario seleccionar un archivo de su dispositivo para subirlo. Asigna un identificador único al campo, que puede ser usado para referenciarlo en JavaScript o CSS.
+    </p>
+    <input type="file">
+
+    <h3 id="hidden">Hidden</h3>
+    <p>
+        Este código crea un campo de entrada oculto. No es visible para el usuario, pero su valor puede ser enviado con un formulario. Se usa comúnmente para almacenar información que necesita ser enviada al servidor pero que no necesita ser vista o modificada por el usuario.
+    </p>
+    <input type="hidden">
+
+    <h3 id="img">Image</h3>
+    <p>
+        Crea un botón de envío en un formulario que muestra una imagen. El botón actúa como un botón de envío (submit), pero en lugar de texto, utiliza una imagen para que el usuario haga clic. 
+    </p>
+    <input type="image">
+
+    <h3 id="month">Month</h3>
+    <p>
+        Crea un campo de entrada para seleccionar un mes y un año.
+    </p>
+    <input type="month">
+
+    <h3 id="number">Number</h3>
+    <p>
+        Crea un campo de entrada que permite al usuario ingresar números.
+    </p>
+    <input type="number">
+
+    <h3 id="psw">Password</h3>
+    <p>
+        Crea un campo de entrada para contraseñas. Los caracteres ingresados se ocultan con puntos o asteriscos para mantener la privacidad del usuario mientras escribe su contraseña.
+    </p>
+    <input type="password">
+
+    <h3 id="radio">Radio</h3>
+    <p>
+        Se usa para permitir al usuario seleccionar una sola opción de un grupo de opciones mutuamente exclusivas.
+    </p>
+    <input type="radio">
+
+    <h3 id="range">Range</h3>
+    <p>
+        Crea un control deslizante que permite al usuario seleccionar un valor dentro de un rango. El valor del control puede ser ajustado arrastrando el control deslizante a lo largo de una barra. 
+    </p>
+    <input type="range">
+
+    <h3 id="reset">Reset</h3>
+    <p>
+        Crea un botón que, al hacer clic, restablece todos los campos de un formulario a sus valores iniciales. Es útil para permitir al usuario borrar todas las entradas y empezar de nuevo.
+    </p>
+    <input type="reset">
+
+    <h3 id="search">Search</h3>
+    <p>
+        Crea un campo de entrada diseñado para buscar texto. Ofrece una interfaz de búsqueda que incluye características como un icono de lupa y una opción para borrar el texto ingresado, facilitando la búsqueda de información en un formulario o en una página web.
+    </p>
+    <input type="search">
+
+    <h3 id="submit">Submit</h3>
+    <p>
+        Crea un botón de envío que envía el formulario en el que se encuentra. Al hacer clic en el botón, se envían los datos del formulario al servidor para su procesamiento.
+    </p>
+    <input type="submit">
+
+    <h3 id="tel">Tel</h3>
+    <p>
+        Crea un campo de entrada para números de teléfono. Aunque no valida el formato del número, muestra un teclado numérico en dispositivos móviles, facilitando la entrada de números telefónicos.
+    </p>
+    <input type="tel">
+
+    <h3 id="txt">Text</h3>
+    <p>
+        Campo de entrada de texto donde los usuarios pueden escribir datos alfanuméricos. Es el tipo de campo más común y se usa para capturar una variedad de información textual.
+    </p>
+    <input type="text">
+
+    <h3 id="time">Time</h3>
+    <p>
+        Crea un campo de entrada para seleccionar una hora. Muestra un selector de tiempo que permite al usuario elegir una hora específica del día, y opcionalmente también minutos y segundos, según la implementación del navegador.
+    </p>
+    <input type="time">
+
+    <h3 id="url">URL</h3>
+    <p>
+        Valida que el texto ingresado tenga un formato de URL válido y puede mostrar un teclado optimizado para la entrada de direcciones web en dispositivos móviles.
+    </p>
+    <input type="url">
+
+    <h3 id="week">Week</h3>
+    <p>
+        Crea un campo de entrada para seleccionar una semana y un año. Permite al usuario elegir una semana específica dentro de un año, facilitando la entrada de datos relacionados con semanas en lugar de fechas exactas.
+    </p>
+    <input type="week">
+
+
+</body>
+</html>
