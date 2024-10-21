@@ -1,0 +1,39 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.title{
+    width: 100%;
+    text-align: center;
+}
+
+.title::after{
+    content: '';
+    display: block;
+    width: 35%;
+    height: 2px;
+    background-color: black;
+    margin-top: 3px;
+    margin-left: 160px;
+    justify-content: center;
+}
+
+.container{
+    background-color: #b1b2c5;
+    margin-top: 100px;
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.cuadrado{
+    background-color: #303288;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
