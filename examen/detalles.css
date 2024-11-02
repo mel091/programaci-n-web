@@ -1,0 +1,209 @@
+body{
+    background-color: #FFF5F4;
+    font-family: "Palatino Linotype", "Palatino", serif;
+}
+
+.header{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    padding: 10px; 
+}
+
+.left {
+    display: flex;
+    align-items: center; 
+}
+
+.middle{
+    margin-top: 20px;
+    width: 500px;
+}
+
+.right {
+    display: flex; 
+    align-items: center; 
+}
+
+.logo{
+    width: 45px;
+    height: 45px;
+}
+
+.name{
+    font-size: 25px;
+    padding: 10px 10px ;
+    align-self: center;
+}
+
+.user{
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.profile-img{
+    width: 55px; 
+    height: 55px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.separador{
+    background-color: #B66461;
+    width: auto;
+    height: 2px;
+}
+
+.search-img{
+    width: 22px;
+    height: 22px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 70% 40%; /* La columna izquierda ocupa el 60% y la derecha el 40% */
+    gap: 45px; 
+    margin-top: 30px;
+   justify-content: center;
+}
+
+.info-izq{
+    position: relative;
+}
+
+.carousel .carousel-inner .item img {
+    height: 500px;
+    width: 100%;
+}
+
+.carousel-item img {
+    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
+    height: 550px; /* Ajusta la altura de la imagen al contenedor */
+    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin deformarse */
+    border-radius: 30px;
+    border: 1px #B66461 solid;
+    margin-bottom: 15px;
+}
+
+.nombre-salon{
+    font-weight: bold;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.sep-nombre{
+    margin-left: 15px;
+    display: inline-block;
+    width: 150px;
+}
+
+.roberto{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contacto{
+    background-color: #B66461;
+    color: #FFF5F4;
+    border-radius: 8px;
+    width: 200px;
+    height: 35px;
+}
+
+.info-anf{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between; 
+    margin-bottom: 15px;
+}
+
+.anf-foto{
+    width: 65px; 
+    height: 65px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.num-likes{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.like{
+    width: 23px;
+    height: 23px;
+}
+
+.desc{
+    border: 1px #B66461 solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.desc-text{
+    font-size: 17px;
+}
+
+.mapa img{
+    width: 100%;
+    height: 300px;
+    border: 1px #B66461 solid;
+    border-radius: 10px;
+    margin-bottom: 40px;
+}
+
+.info-der{
+    display: block;
+}
+
+.caracteristicas{
+    border: 1px #B66461 solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.list{
+    font-size: 18px
+}
+
+.caracteristicas i{
+    margin-left: 10px;
+    color: #B66461 ;
+}
+
+.carac{
+    font-size: 25px;
+    font-weight: bold;
+    display: flex;        
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.calendario img{
+    border: 1px #B66461 solid;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.info-price{
+    display: flex;
+    align-items: center;  
+    justify-content: space-between; 
+}
+
+.price{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.reservar-btn{
+    font-size: 22px;
+    background-color: #B66461;
+    color: #FFF5F4;
+    border-radius: 8px;
+    width: 150px;
+    height: 37px;
+}
