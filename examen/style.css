@@ -231,7 +231,7 @@ body{
     }
 
     .user{
-        font-size: 17px;
+        font-size: 15px;
         margin-right: 5px;
     }   
     
@@ -241,7 +241,7 @@ body{
     }
     
     .name{
-        font-size: 18px;
+        font-size: 17px;
         padding: 7px 7px ;
         align-self: center;
     }
