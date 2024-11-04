@@ -181,3 +181,105 @@ body{
     font-size: 22px;
     font-weight: bold;
 }
+
+
+@media screen and (max-width: 1090px) {
+    .preferencias{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr); 
+        justify-items: center;
+    }
+
+    .pref{
+        font-size: 16px;
+    }
+
+    .combo-box{
+        width: 100px;
+        height: 35px;
+    }
+
+    .search-img{
+        width: 18px;
+        height: 18px;
+    }
+    
+    .tam{
+        height: 40px;
+    }
+
+    .buttons{
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 10px;
+        justify-content: center;
+    }
+
+    .products{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 25px; 
+    }
+}
+
+@media screen and (max-width: 580px){
+    .header{
+        display: flex; 
+        justify-content: space-between; 
+        align-items: center;
+        padding: 5px; 
+    }
+
+    .user{
+        font-size: 17px;
+        margin-right: 5px;
+    }   
+    
+    .logo{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .name{
+        font-size: 18px;
+        padding: 7px 7px ;
+        align-self: center;
+    }
+
+    .combo-box{
+        width: 85px;
+        height: 35px;
+    }
+
+    .button{
+        font-size: 16px;
+    }
+
+    .card-title{
+        font-size: 18px;
+    }
+
+    .sep{
+        display: block;
+    }
+
+    .ubi{
+        width: 18px;
+        height: 18px;
+    }
+
+    .detalles{
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+
+    .num-likes{
+        font-size: 17px;
+    }
+
+    .like{
+        width: 17px;
+        height: 17px;
+    }
+}
+
