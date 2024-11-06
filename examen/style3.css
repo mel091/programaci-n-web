@@ -1,0 +1,437 @@
+body{
+    background-color: #FFF5F4;
+    
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+    height: 60px;
+    width: 100%;
+    
+}
+    .header-logotipo{
+        display: flex;
+        align-items: center;
+        /* background-color: blueviolet; */
+        height: 100%;
+        width: 40%;
+    }
+        .header-logotipo img{
+            height: 37px;
+            width: 28px;
+            padding-right: 18px ;
+            padding-left: 18px ;
+        }
+
+        .header-logotipo h2{
+            
+            font-size: 25px;
+            font-weight: 600;
+        }
+
+    .header-perfil{
+        display: flex;
+        justify-content: end;
+        align-items: center;
+        /* background-color: blueviolet; */
+        height: 100%;
+        width: 40%;
+        
+    }
+        .header-perfil img{
+            height: 38px;
+            width: 37px;
+            padding-left: 18px ;
+            padding-right: 18px ;
+            border-radius: 50%; /* Hace la imagen circular */
+            object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+        }
+
+        .header-perfil h4{
+            font-size: 15px;
+            font-weight: 300;
+            
+        }
+
+
+.main{
+    /* background-color: green; */
+    height: 500px;
+}
+
+    .main h1{
+        display: flex;
+        align-items: center;
+        padding-left: 150px;
+        font-size: 30px;
+        display: block;
+        /* display: block; */
+    }
+    .main img{
+        padding-right: 10px;
+    }
+
+
+    .section{
+        display: flex;
+        /* background-color: green; */
+        height: 100%;
+        margin-left: 110px;
+        margin-right: 110px;
+        
+    }
+        .section-left{
+            border: 1px solid #B66461;
+            height: 400px;
+            width: 50%;
+            margin-right: 10px;
+            border-radius: 40px; /* Hace la imagen circular */
+            object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+            background-color: transparent; /* Fondo transparente */
+        }
+            .fechaReservacion{
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .article-formulario{
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+                .article-formulario, .fechaP p{
+                    font-size: 20px;
+                    font-weight: bold;
+                    padding-top: 20px;
+                    margin: 0;
+                }
+
+            .fechaReservacion{
+                font-size: 20px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                
+                margin: 0;
+
+            }
+                .fechaReservacion span{
+                    font-weight: normal;
+
+                }
+                .fechaReservacion a{
+                    color: black;
+                    font-weight: normal;
+
+                }
+                .article-formulario, .pagoP p{
+                    font-size: 20px;
+                    padding-top: 10px;
+                    padding-bottom: 10px;
+                    font-weight: bold;
+                    margin: 0;
+                }
+                
+                .tarjetaInput{
+                    font-size: 16px;
+                    padding: 10px;
+                    width: 100%;
+                    margin-top: 10px;
+                    box-sizing: border-box; /* Incluye padding y border en el width */
+                    border-radius: 10px; /* Bordes redondeados */
+                    border: 1px solid #B66461; /* Color del borde */
+                    background-color: transparent; /* Fondo transparente */
+
+                }
+
+                .tarjetaInputRow {
+                    display: flex; /* Hace que los inputs pequeños se alineen horizontalmente */
+                    justify-content: space-between; /* Espacio entre los inputs */
+                    margin-top: 10px; /* Margen superior para separación */
+                }
+                .tarjetaInputSmall{
+                    
+                    font-size: 16px;
+                    padding: 10px;
+                    width: 44%;
+                    box-sizing: border-box; /* Incluye padding y border en el width */
+                    border-radius: 10px; /* Bordes redondeados */
+                    border: 1px solid #B66461; /* Color del borde */
+                    background-color: transparent; /* Fondo transparente */
+
+                }            
+                
+                
+
+        .section-right{
+            height: 400px;
+            width: 50%;
+            margin-left: 10px;
+        }
+            .article-salon{
+                border: 1px solid #B66461;
+                border-radius: 40px; /* Hace la imagen circular */
+                object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+                background-color: transparent; /* Fondo transparente */
+                padding-left: 20px;
+                padding-right: 20px;
+                
+                align-items: center;
+            }
+
+           
+
+            .salonImagen{
+                padding-top: 20px;
+            }
+                
+                .salonImagen img {
+                    width: 140px;      /* Ajusta el ancho */
+                    height: 100px;     /* Ajusta la altura */
+                    border: 2px solid #B66461;
+                    border-radius: 10px; /* Hace la imagen circular */
+                    object-fit: cover; /* Asegura que la imagen se ajuste bien dentro del círculo */
+                    transition: transform 0.3s ease; /* Transición */
+                    padding: 0;
+                }
+
+                .salonImagen img:hover {
+                    transform: scale(1.1); /* Efecto de zoom al pasar el mouse */
+                }
+
+
+                .salonTop{
+                    display: flex;
+                }
+
+                .salonBottom
+                {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .salonInfo{
+                    padding-left: 10px;
+                    padding-top: 20px;
+                }
+                #jardin{
+                    font-size: 20px;
+                    margin: 0;
+                    font-weight: bold;
+                }
+                #anfri{
+                    font-size: 13px;
+                    padding-top: 10px;
+                    margin: 0;
+                }
+                #likes{
+                    display: flex;
+                    font-size: 15px;
+                    padding-top: 10px ;
+                    margin: 0;
+                }
+
+                #likes img{
+                    width: 15px;
+                    height: 15px;
+                    padding: 0;
+                    padding-left: 5px ;
+                    padding-right: 5px;
+                }
+
+                .salonPreico h2{
+                    margin: 0;
+                }
+
+                .salonPreicoNum h2{
+                    margin: 0;
+                    margin-bottom:  15px;
+                }
+            .article-reglas{
+                
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+
+            .reglasTop h2{
+                margin: 0;
+                padding-top: 15px;
+                padding-bottom: 15px;
+            }
+            .reglasTop ul{
+                font-size: 16px;
+                line-height: 1.5;
+                margin: 0;
+            }
+
+            .reglasBottom p{
+                font-size: 16px;
+                padding-top: 3px;
+                padding-bottom: 3px;
+                line-height: 1.5;
+                margin: 0;
+            }
+
+.footer{
+    /* background-color: red; */
+    height: 150px;
+    align-items: center;
+}
+
+    .boton-pago{
+        display: flex;
+        justify-content: center;
+    }
+        .boton-pago a{
+            display: inline-block;
+            padding: 5px 40px;
+            background-color: #B66461; /* Color de fondo */
+            color: white; /* Color del texto */
+            text-align: center;
+            text-decoration: none; /* Quita el subrayado */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .section h1{
+            display: none;
+        }
+@media (max-width: 1015px){
+
+    .salonBottom h2{
+        font-size: 18px;
+    }
+    .header-logotipo{
+        width: 50%;
+
+    }
+    .header-perfil{
+        width: 50%;
+    }
+
+    .main{
+        display: flex;
+        height: 920px;
+        /* justify-content: center; */
+    }
+    .section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .section-left{
+        
+        margin: 0;
+        margin-top: 15px;
+        order: 2;
+        width: 80%;
+    }
+    .section-right{
+        margin: 0;
+        
+        width: 80%;
+    }
+    .reglasTop{
+
+        margin-top: 15px;
+    }
+    .main h1{
+        /* display: none; */
+        justify-content: start;
+        padding: 00px;
+        display: none;
+    }
+    .sectionTitulo h1{
+        display: block;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        align-content: start;
+    }
+    .boton-pago{
+        margin: 60px;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+    }
+    .boton-pago a{
+        margin: 0;
+        width: 100%;
+        font-size: 18px;
+    }
+
+}
+
+@media (max-width: 680px){
+    .section-left{
+        margin-top: 50px;
+    }
+    .boton-pago a{
+        margin-top: 30px;
+    }
+    .tituloDream{
+        display: none;
+    }
+}
+
+@media (max-width: 480px){
+    .section-left{
+        margin-top: 100px;
+    }
+    .section-left{
+        margin-bottom: 100px;
+    }
+    .boton-pago a{
+        margin-top: 80px;
+    }
+    .salonImagen img {
+        width: 100px;      /* Ajusta el ancho */
+        height: 100px;  
+
+        }
+     
+    .tituloDream{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 400px){
+    .section-left{
+        margin-top: 150px;
+    }
+    .section-left{
+        margin-bottom: 100px;
+    }
+    .boton-pago a{
+        margin-top: 150px;
+    }
+    .salonImagen img {
+        width: 100px;      /* Ajusta el ancho */
+        height: 130px;  
+
+        }
+    .tituloDream{
+        display: none;
+    }
+}
+
+
+@media (max-width: 359px){
+    .section-left{
+        margin-top: 150px;
+    }
+    .section-left{
+        margin-top: 150px;
+    }
+    .salonImagen img {
+        width: 100px;      /* Ajusta el ancho */
+        height: 130px;  
+
+        }
+    .tituloDream{
+        display: none;
+    }
+}

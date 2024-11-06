@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservacion</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+    <header class="header">
+        <div class="header-logotipo">
+            <a href="index.html">
+                <img src="images/logo.png" alt="logotipo">
+            </a>
+            <a href="index.html"  style="color: black; text-decoration: none;">
+                <h2 class="tituloDream">Dream Hall</h2>
+            </a> 
+            
+           
+        </div>
+        <div class="header-perfil">
+            <h4>Carolina Hernández</h4>
+            <img src="images/pfp.png" alt="foto de perfil">
+        </div>
+    </header>
+    <hr>
+    <main class="main">
+        <h1><a href="detalles.html"><img src="images/flecha.png" alt="regresar" ></a>Solicitar reservación</h1>
+        <section class="section">
+            <div class="sectionTitulo">
+                <h1><img src="images/flecha.png" alt="regresar" >Solicitar reservación</h1>
+            </div>
+            <section class="section-left">
+                <article class="article-formulario">
+                    <div class="fechaP">
+                        <p>Fecha de reservación</p>
+                    </div>
+                       
+                    <div class="fechaReservacion">
+                        <span>15 de septiembre</span>
+                        <a href="reservacion.html">editar</a>
+                    </div>
+                    <hr>
+                    <div class="pagoP">
+                        <p >Pago con tarjeta de crédito o débito</p>
+                    </div>
+                    <form>
+                        <input class="tarjetaInput" type="text" id="tarjetaNum" name="tarjetaNum" placeholder="Número de tarjeta">
+                        <input class="tarjetaInput" type="text" id="tarjetaNombre" name="tarjetaNombre" placeholder="Nombre y apellido">
+
+                        <div class="tarjetaInputRow">
+                            <input class="tarjetaInputSmall" type="text" id="tarjetaCiudad" name="tarjetaCiudad" placeholder="Caducidad">
+                        <input class="tarjetaInputSmall" type="text" id="tarjetaCvv" name="tarjetaCvv" placeholder="CVV">
+                        </div>
+                        
+                        <input class="tarjetaInput" type="text" id="tarjetaCp" name="tarjetaCp" placeholder="Código postal">
+                      </form>
+                </article>
+            </section>
+
+            
+            <section class="section-right">
+                <article class="article-salon">
+                    <div class="salonTop">
+                        <div class="salonImagen">
+                            <img src="images/imgex.jpeg" alt="imagen local">
+                        </div>
+                        <div class="salonInfo">
+                            <p id="jardin">Jardín para eventos al aire libre</p>
+                            <p id="anfri">Anfitrión: Roberto Vega</p>
+                            <p id="likes">5,670 <img src="images/like.png" alt="Imgane Me Gusta"><img src="images/nolike.png" alt="Imgane No Me Gusta"> 1,012</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="salonBottom">
+                        <div class="salonPreico">
+                            <h2>Detalles del precio</h2>
+                        </div>
+                        <div class="salonPreicoNum">
+                            <h2>$75,000 MXN</h2>
+                        </div>
+                    </div>
+                </article>
+                <article class="article-reglas">
+                    <div class="reglasTop">
+                        <h2>Reglas Basicas</h2>
+                        <ul>
+                            <li>Sigue las reglas del local</li>
+                            <li>Trata el local del anfitrión como si fuera tuyo</li>
+                        </ul>
+                    </div>
+                    <hr>
+                    <div class="reglasBottom">
+                        <p>Se le enviará un email con la infomación del local y el contacto del anfitrión para que se pongan en contacto una vez usted haya realizado el pago. </p>
+                    </div>
+                    <hr>
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="boton-pago">
+            <a href="reservacion.html" class="btn">Proceder con el pago</a>
+        </div>
+    </footer>
+</body>
+</html>
