@@ -397,3 +397,41 @@ body{
     }
 }
 
+
+@media screen and (max-width: 400px){
+    .container{
+        margin-top: 0;
+    }
+
+    .roberto{
+        font-size: 15px;
+    }
+
+    .contacto{
+        width: 120px;
+        height: 45px;
+    }
+
+    .info-der {
+        display: flex;
+        flex-direction: column; 
+        gap: 15px; 
+    }
+
+    .caracteristicas, .calendario {
+        max-width: 100%;
+    }
+
+    .calendario {
+        align-self: stretch; /*calendario ocupa todo el ancho */
+    }
+
+    .calendario img {
+        width: 100%;
+        height: auto;
+    }
+
+    .price{
+        font-size: 25px;
+    }
+}

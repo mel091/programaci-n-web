@@ -347,3 +347,23 @@ body{
         width: 220px;
     }
 }
+
+@media screen and (max-width: 510px){
+    .combo-box{
+        width: 68px;
+        height: 23px;
+    }
+
+    .img-container{
+        width: 197px;
+        height: 300px;
+    }
+
+    .site{
+        width: 200px;
+    }
+
+    .space{
+        width: 100%;
+    }
+} 
