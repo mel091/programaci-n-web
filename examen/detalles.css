@@ -65,6 +65,7 @@ body{
     gap: 45px; 
     margin-top: 30px;
    justify-content: center;
+   padding: 30px;
 }
 
 .info-izq{
@@ -77,9 +78,9 @@ body{
 }
 
 .carousel-item img {
-    width: 100%; /* Ajusta el ancho de la imagen al contenedor */
-    height: 550px; /* Ajusta la altura de la imagen al contenedor */
-    object-fit: cover; /* Asegura que la imagen cubra todo el contenedor sin deformarse */
+    width: 100%; /*ancho de la imagen al contenedor */
+    height: 550px; /*altura de la imagen al contenedor */
+    object-fit: cover; /* imagen cubra todo el contenedor sin deformarse */
     border-radius: 30px;
     border: 1px #B66461 solid;
     margin-bottom: 15px;
@@ -92,6 +93,8 @@ body{
 }
 
 .sep-nombre{
+    position: absolute;
+    margin-top: 10px;
     margin-left: 15px;
     display: inline-block;
     width: 150px;
@@ -106,6 +109,7 @@ body{
     background-color: #B66461;
     color: #FFF5F4;
     border-radius: 8px;
+    margin-left: 170px;
     width: 200px;
     height: 35px;
 }
@@ -145,12 +149,14 @@ body{
     font-size: 17px;
 }
 
-.mapa img{
-    width: 100%;
-    height: 300px;
+.mapa {
     border: 1px #B66461 solid;
     border-radius: 10px;
     margin-bottom: 40px;
+}
+
+.mapa iframe{
+    border-radius: 10px;   
 }
 
 .info-der{
@@ -207,3 +213,187 @@ body{
     width: 150px;
     height: 37px;
 }
+
+@media screen and (max-width: 1480px) {
+    .user {
+        font-size: 16px;
+        margin-right: 5px;
+    }   
+    
+    .logo {
+        display: none;
+    }
+    
+    .name {
+        font-size: 22px;
+        padding: 5px 10px;
+    }
+
+    .middle {
+        margin-top: 20px;
+        width: 350px;
+    }
+
+    .carousel .carousel-inner .item img {
+        height: 400px;
+    }
+    
+    .carousel-item img {
+        height: 450px;
+    }
+
+    .nombre-salon {
+        font-weight: bold;
+        font-size: 30px;
+    }
+
+    .anf-foto {
+        width: 55px;
+        height: 55px;
+    }
+
+    .roberto {
+        font-size: 19px;
+    }
+
+    .contacto {
+        font-size: 15px;
+        width: 200px;
+        height: 35px;
+        margin-left: 150px;
+    }
+
+    .num-likes {
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .like {
+        width: 20px;
+        height: 20px;
+    }
+
+    .container {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .desc, .mapa {
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+    .info-price {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .price {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .reservar-btn {
+        font-size: 23px;
+        height: 60px;
+        width: 100%;
+    }
+
+    .info-der {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        align-items: flex-start;
+    }
+
+    .caracteristicas, .calendario {
+        flex: 1;
+        max-width: 100%;
+    }
+
+    .calendario img {
+        width: 100%;
+        height: auto;
+        border-radius: 15px;
+    }
+}
+
+ @media screen and (max-width: 750px) {
+    .name{
+        display: none;
+    }
+
+    .middle{
+        width: 320px;
+    }
+
+    .info-anf {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .info-anf > div {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 10px;
+    }
+
+    .anf-foto {
+        width: 50px;
+        height: 50px;
+    }
+
+    .sep-nombre {
+        margin-left: 65px;
+    }
+
+    .contacto {
+        font-size: 14px;
+        padding: 5px 10px;
+        width: auto;
+        margin-left: auto;
+    }
+
+    .num-likes {
+        font-size: 18px;
+    }
+
+    .like {
+        width: 20px;
+        height: 20px;
+    }
+
+    .calendario{
+        align-items: center;
+    }
+
+    .calendario img{
+        width: 100%;
+        height: 265px;
+    }
+} 
+
+
+@media screen and (max-width: 610px){
+    .middle{
+        width: 280px;
+    }
+
+    .reservar-btn{
+        height: 40px;
+    }
+
+    .middle{
+        display: none;
+    }
+
+    .logo{
+        display: block;
+    }
+}
+
